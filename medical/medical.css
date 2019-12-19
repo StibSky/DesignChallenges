@@ -1,0 +1,83 @@
+body {
+    width: 50%;
+    border-left: #aeaeae 1px solid;
+    margin: auto;
+    font-family: sans-serif;
+}
+header {
+    border-bottom: #aeaeae 1px dotted;
+    margin: 2%;
+}
+section {
+    margin: 2%;
+}
+.names {
+    display: inline-block;
+}
+.names input {
+    display: block;
+}
+.names label {
+    font-size: 80%;
+}
+#firstname {
+    width:30%;
+}
+#ename {
+    width:30%;
+}
+#aah {
+    margin-left: -17%;
+}
+#aah2 {
+    margin-left: -17%;
+}
+#aah3 {
+    margin-left: -1%;
+}
+.dender{
+    display: inline-block;
+}
+
+.nation{
+    display: inline-block;
+}
+
+
+#birth {
+    padding-left: 30%;
+}
+
+#gender {
+    width: 300%;
+}
+
+fieldset {
+    border: none  ;
+}
+
+
+
+#relate {
+    width: 30%;
+}
+
+#elast {
+    width: 30%;
+}
+
+#address {
+    width: 100%;
+}
+
+#line2 {
+    width: 100%;
+}
+
+#city {
+    width: 80%;
+}
+
+#states {
+    width: 110%;
+}

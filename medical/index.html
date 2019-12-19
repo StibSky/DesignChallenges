@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Design 00 - Form</title>
+    <link rel="stylesheet" type="text/css" href="medical.css">
+</head>
+<body>
+<header>
+    <h2>Emergency Contact and Medical information</h2>
+</header>
+<section>
+    <form method="post">
+        <fieldset>
+            <legend><strong>Name</strong></legend>
+            <div class="names">
+                <input type="text" name="firstname" id="firstname">
+                <label for="firstname">First</label>
+            </div>
+            <div class="names" id="aah">
+                <input type="text" name="lastname" id="lastname">
+                <label for="lastname">Last</label>
+            </div>
+        </fieldset>
+        <div class="dender" >
+            <fieldset>
+                <legend><strong>Gender</strong></legend>
+                <select id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </fieldset>
+        </div>
+        <div class="dender" id="birth">
+            <fieldset>
+                <legend><strong>Date of birth</strong></legend>
+                <input type="date" name="Date of Birth">
+            </fieldset>
+        </div>
+        <h3>Emergency Contact</h3>
+        <section id="mathelp">
+            <div class="nation">
+                <fieldset>
+                    <legend><strong>Name</strong></legend>
+                    <div class="names">
+                        <input type="text" name="firstname" id="ename">
+                        <label for="ename">First</label>
+                    </div>
+                    <div class="names" id="aah2">
+                        <input type="text" name="lastname" id="elast">
+                        <label for="elast">Last</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="nation">
+                <legend><strong>Relationships</strong></legend>
+                <input type="text" name="relationship " id="relate">
+            </div>
+        </section>
+        <div class="address">
+            <legend><strong>Address</strong></legend>
+            <input type="text" name="address " id="address">
+            <label for="address">street address</label>
+        </div>
+        <div class="address">
+            <input type="text" name="line2 " id="line2">
+            <label for="line2">address line 2</label>
+        </div>
+        <fieldset>
+            <div class="names">
+                <input type="text" name="firstname" id="city">
+                <label for="ename">City</label>
+            </div>
+            <div class="names" id="aah3">
+                <input type="text" name="lastname" id="states">
+                <label for="elast">State/province/region</label>
+            </div>
+        </fieldset>
+
+    </form>
+</section>
+</body>
+</html>
